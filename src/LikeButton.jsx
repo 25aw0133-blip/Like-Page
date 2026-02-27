@@ -5,7 +5,7 @@ function LikeButton() {
 
   return (
     <div>
-      <p>Likes</p>
+      <p>Likes Count</p>
       <p>❤️ {likes}</p>
       <button onClick={() => setLikes(likes + 1)}>+1</button>
     </div>
