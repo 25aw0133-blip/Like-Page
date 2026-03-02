@@ -5,6 +5,7 @@ function LikeButton() {
 
   return (
     <div>
+      <p>POE EI SAN</p>
       <p>Likes</p>
       <p>❤️ {likes}</p>
       <button onClick={() => setLikes(likes + 1)}>+1</button>
